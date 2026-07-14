@@ -14,7 +14,7 @@ function App() {
       <h1>Instituto Méxicano de Sanación. </h1>
       <CabezeraPatron repeatCount={2} />
       <SquareGallery />
-
+      <CabezeraPatron repeatCount={3} />
 
     </div>
 
