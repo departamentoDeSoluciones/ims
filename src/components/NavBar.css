@@ -1,0 +1,48 @@
+/* Contenedor principal: 100% del ancho, alineación flex */
+.nav-container {
+  display: flex;
+  width: 100%;
+  background-color: var(--white-color); /* Tu variable base */
+  border-bottom: 1px solid #eaeaea; /* Opcional: para definir el límite del nav */
+}
+
+/* Mitad izquierda: Logo */
+.nav-logo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem; /* Espaciado para que no pegue al borde de la pantalla */
+}
+
+.nav-logo p {
+  margin: 0;
+  font-weight: bold;
+  color: var(--black-color);
+}
+
+/* Mitad derecha: Menú */
+.nav-menu {
+  width: 50%;
+  display: flex;
+}
+
+/* Estilo minimalista del botón */
+.nav-btn  {
+  flex: 1; /* Ocupan exactamente un tercio del contenedor padre cada uno */
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid var(--grey-color); /* Opcional: separador sutil entre botones */
+  padding: 1rem 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  color: inherit;
+  transition: background-color 0.2s ease, text-shadow 0.8s ease-out; /* Transición suave al pasar el mouse */
+}
+
+/* Interacción de hover */
+.nav-btn:hover {
+  background-color: var(--yellow-color); /* Un gris muy tenue para indicar que es clickeable */
+  color: var(--white-color);
+ text-shadow: var(--hover-text-shadow);
+}

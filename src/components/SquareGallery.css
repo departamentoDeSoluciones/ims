@@ -1,0 +1,25 @@
+/* 1. Contenedor principal */
+.gallery-container {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 2. Cuadrantes (div main) */
+.main {
+  width: 50%;
+  aspect-ratio: 1 / 1; /* Cuadrados perfectos */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Corta cualquier excedente de la imagen */
+}
+
+/* 3. Imágenes */
+.scroll-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Mantiene proporción llenando el espacio */
+  display: block;
+}
