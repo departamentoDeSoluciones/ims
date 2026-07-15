@@ -1,4 +1,4 @@
-import './NavBar.css'; // Asegúrate de crear este archivo
+import './NavBar.css';
 
 function NavBar() {
   const botones = [
