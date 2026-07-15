@@ -13,3 +13,29 @@
   padding: 0 2rem;
 }
 
+.page p{
+  padding: 0 2rem;
+width: 60%
+}
+
+.text-container { 
+
+display: flex;
+flex-direction: center;
+justify-content: space-between;
+  width:100%;
+}
+.text-container p{
+width: 33%
+  padding: 0 2rem;
+}
+.red-container{
+width: 100%;
+  display:flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: var(--main-color);
+  padding: 2rem ; 
+}

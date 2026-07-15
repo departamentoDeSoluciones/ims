@@ -11,7 +11,7 @@ function NavBar() {
     <nav className="nav-container">
       {/* Mitad Izquierda (50%) */}
       <div className="nav-logo">
-        <p>I.M.S</p>
+        <p>I M S</p>
       </div>
 
       {/* Mitad Derecha (50%) */}

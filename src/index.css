@@ -19,12 +19,13 @@
   --border: #e5e4e7;
   
   /* Tipografía */
-  --font-primary: "Kameron", serif;
-  --font-secondary: "Sansation", sans-serif;
+
+  --font-primary: "Kameron", Georgia, "Times New Roman", Times, serif;
+  --font-secondary: "Sansation", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
   /* Efectos */
   --hover-text-shadow: 
-    0 0 1px var(--black-color),
+    0 0 1px var(--grey-color),
     0 0 8px color-mix(in srgb, var(--white-color) 50%, transparent),
     0 0 15px color-mix(in srgb, var(--white-color) 20%, transparent);
 }
@@ -87,16 +88,17 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 72px;
   letter-spacing: -2px; 
   margin: 32px 0;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 52px;
   line-height: 118%;
+  color: var(--yellow-color);
   letter-spacing: -1px;
-  margin: 0 0 8px;
+  margin: 32px 0;
 }
 
 p {

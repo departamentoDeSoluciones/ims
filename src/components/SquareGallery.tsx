@@ -47,6 +47,8 @@ function SquareGallery() {
         </div>
       ))}
 
+
+
     </div>
 
   );
