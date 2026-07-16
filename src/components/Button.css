@@ -11,19 +11,19 @@
   padding: 0;
   display: block;
   
-  /* Reseteo nativo */
   border: solid 2px var(--grey-color);
   font-family: inherit;
   font-size: 1rem;
   cursor: pointer;
   
   background-color: var(--white-color);
-  color: var(--black-color); /* Asegura contraste con el fondo crema */
+  color: var(--black-color); 
   
-  transition: background-color 0.08s ease-out;
+  transition: background-color 0.8s ease-out , text-shadow 0.8s ease-out;
 }
 
 .main-button:hover {
   background-color: var(--yellow-color);
   color: var(--white-color);
+  text-shadow: var(--hover-text-shadow );
 }
